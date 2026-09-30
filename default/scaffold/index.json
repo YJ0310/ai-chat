@@ -1,0 +1,58 @@
+[
+    {
+        "filename": "settings.json",
+        "type": "settings"
+    },
+    {
+        "filename": "characters/default_Assistant.png",
+        "type": "character"
+    },
+    {
+        "filename": "characters/default_Seraphina.png",
+        "type": "character"
+    },
+    {
+        "filename": "worlds/圣化蛹变-寄生改造体系.json",
+        "type": "world"
+    },
+    {
+        "filename": "worlds/Eldoria.json",
+        "type": "world"
+    },
+    {
+        "filename": "OpenAI Settings/FreaKy FranKIMstein - SwanSong.json",
+        "type": "openai_preset"
+    },
+    {
+        "filename": "OpenAI Settings/Kimi-越狱狂暴中文 (FranKIMstein).json",
+        "type": "openai_preset"
+    },
+    {
+        "filename": "OpenAI Settings/Default.json",
+        "type": "openai_preset"
+    },
+    {
+        "filename": "OpenAI Settings/Novel-Writing.json",
+        "type": "openai_preset"
+    },
+    {
+        "filename": "OpenAI Settings/Kimi-原生中文创作.json",
+        "type": "openai_preset"
+    },
+    {
+        "filename": "backgrounds/IMG_7298.png",
+        "type": "background"
+    },
+    {
+        "filename": "backgrounds/IMG_7298.JPG",
+        "type": "background"
+    },
+    {
+        "filename": "User Avatars/1790679680130-ChianHui.png",
+        "type": "avatar"
+    },
+    {
+        "filename": "User Avatars/user-default.png",
+        "type": "avatar"
+    }
+]

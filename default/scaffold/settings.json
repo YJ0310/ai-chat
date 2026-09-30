@@ -1,0 +1,1403 @@
+{
+    "firstRun": false,
+    "accountStorage": {
+        "__migrated": "1",
+        "LNavOpened": "true",
+        "NavOpened": "true",
+        "StoryStringValidationCache": "{\"hashCache\":{\"3090278210222208\":{\"fieldsWarned\":{}}}}",
+        "SelectedNavTab": "rm_button_characters",
+        "LNavLockOn": "false"
+    },
+    "currentVersion": "1.19.0",
+    "username": "takoo",
+    "active_character": "default_Assistant.png",
+    "active_group": null,
+    "user_avatar": "user-default.png",
+    "amount_gen": 350,
+    "max_context": 8192,
+    "main_api": "openai",
+    "world_info_settings": {
+        "world_info": {
+            "globalSelect": [
+                "圣化蛹变-寄生改造体系"
+            ]
+        },
+        "world_info_depth": 2,
+        "world_info_min_activations": 0,
+        "world_info_min_activations_depth_max": 0,
+        "world_info_budget": 25,
+        "world_info_include_names": true,
+        "world_info_recursive": true,
+        "world_info_overflow_alert": false,
+        "world_info_case_sensitive": false,
+        "world_info_match_whole_words": true,
+        "world_info_character_strategy": 1,
+        "world_info_budget_cap": 0,
+        "world_info_use_group_scoring": false,
+        "world_info_max_recursion_steps": 0
+    },
+    "textgenerationwebui_settings": {
+        "temp": 1,
+        "temperature_last": true,
+        "top_p": 0.95,
+        "top_k": 0,
+        "top_a": 0,
+        "tfs": 1,
+        "epsilon_cutoff": 0,
+        "eta_cutoff": 0,
+        "typical_p": 1,
+        "min_p": 0.01,
+        "rep_pen": 1.1,
+        "rep_pen_range": 0,
+        "rep_pen_decay": 0,
+        "rep_pen_slope": 1,
+        "no_repeat_ngram_size": 0,
+        "penalty_alpha": 0,
+        "num_beams": 1,
+        "length_penalty": 1,
+        "min_length": 0,
+        "encoder_rep_pen": 1,
+        "freq_pen": 0,
+        "presence_pen": 0,
+        "skew": 0,
+        "do_sample": true,
+        "early_stopping": false,
+        "dynatemp": false,
+        "min_temp": 0,
+        "max_temp": 2,
+        "dynatemp_exponent": 1,
+        "smoothing_factor": 0,
+        "smoothing_curve": 1,
+        "dry_allowed_length": 2,
+        "dry_multiplier": 0,
+        "dry_base": 1.75,
+        "dry_sequence_breakers": "[\"\\n\", \":\", \"\\\"\", \"*\"]",
+        "dry_penalty_last_n": 0,
+        "max_tokens_second": 0,
+        "seed": -1,
+        "preset": "Default",
+        "add_bos_token": true,
+        "stopping_strings": [],
+        "ban_eos_token": false,
+        "skip_special_tokens": true,
+        "include_reasoning": true,
+        "streaming": false,
+        "mirostat_mode": 0,
+        "mirostat_tau": 5,
+        "mirostat_eta": 0.1,
+        "guidance_scale": 1,
+        "negative_prompt": "",
+        "grammar_string": "",
+        "json_schema": null,
+        "json_schema_allow_empty": false,
+        "banned_tokens": "",
+        "global_banned_tokens": "",
+        "send_banned_tokens": true,
+        "sampler_priority": [
+            "repetition_penalty",
+            "presence_penalty",
+            "frequency_penalty",
+            "dry",
+            "temperature",
+            "dynamic_temperature",
+            "quadratic_sampling",
+            "top_n_sigma",
+            "top_k",
+            "top_p",
+            "typical_p",
+            "epsilon_cutoff",
+            "eta_cutoff",
+            "tfs",
+            "top_a",
+            "min_p",
+            "adaptive_p",
+            "mirostat",
+            "xtc",
+            "encoder_repetition_penalty",
+            "no_repeat_ngram"
+        ],
+        "samplers": [
+            "penalties",
+            "dry",
+            "top_n_sigma",
+            "top_k",
+            "typ_p",
+            "tfs_z",
+            "typical_p",
+            "xtc",
+            "top_p",
+            "adaptive_p",
+            "min_p",
+            "temperature"
+        ],
+        "samplers_priorities": [
+            "dry",
+            "penalties",
+            "no_repeat_ngram",
+            "temperature",
+            "top_nsigma",
+            "top_p_top_k",
+            "top_a",
+            "min_p",
+            "tfs",
+            "eta_cutoff",
+            "epsilon_cutoff",
+            "typical_p",
+            "quadratic",
+            "xtc"
+        ],
+        "ignore_eos_token": false,
+        "spaces_between_special_tokens": true,
+        "speculative_ngram": false,
+        "type": "ooba",
+        "mancer_model": "mytholite",
+        "togetherai_model": "Gryphe/MythoMax-L2-13b",
+        "infermaticai_model": "",
+        "ollama_model": "",
+        "openrouter_model": "openrouter/auto",
+        "openrouter_providers": [],
+        "openrouter_quantizations": [],
+        "vllm_model": "",
+        "aphrodite_model": "",
+        "dreamgen_model": "lucid-v1-extra-large/text",
+        "tabby_model": "",
+        "llamacpp_model": "",
+        "sampler_order": [
+            6,
+            0,
+            1,
+            3,
+            4,
+            2,
+            5
+        ],
+        "logit_bias": [],
+        "n": 1,
+        "server_urls": {},
+        "custom_model": "",
+        "bypass_status_check": false,
+        "openrouter_allow_fallbacks": true,
+        "xtc_threshold": 0.1,
+        "xtc_probability": 0,
+        "nsigma": 0,
+        "min_keep": 0,
+        "featherless_model": "",
+        "generic_model": "",
+        "extensions": {},
+        "adaptive_target": -0.01,
+        "adaptive_decay": 0.9,
+        "rep_pen_size": 0
+    },
+    "swipes": true,
+    "horde_settings": {
+        "models": [],
+        "auto_adjust_response_length": true,
+        "auto_adjust_context_length": false,
+        "trusted_workers_only": false
+    },
+    "power_user": {
+        "charListGrid": false,
+        "tokenizer": 99,
+        "token_padding": 64,
+        "collapse_newlines": false,
+        "pin_examples": false,
+        "strip_examples": false,
+        "trim_sentences": false,
+        "always_force_name2": true,
+        "user_prompt_bias": "",
+        "show_user_prompt_bias": true,
+        "auto_continue": {
+            "enabled": false,
+            "allow_chat_completions": false,
+            "target_length": 400
+        },
+        "markdown_escape_strings": "",
+        "chat_truncation": 100,
+        "streaming_fps": 30,
+        "smooth_streaming": false,
+        "smooth_streaming_no_think": false,
+        "smooth_streaming_speed": 50,
+        "stream_fade_in": false,
+        "fast_ui_mode": false,
+        "avatar_style": 1,
+        "chat_display": 1,
+        "toastr_position": "toast-top-center",
+        "chat_width": 50,
+        "never_resize_avatars": false,
+        "show_card_avatar_urls": false,
+        "play_message_sound": false,
+        "play_sound_unfocused": true,
+        "auto_save_msg_edits": false,
+        "confirm_message_delete": true,
+        "sort_field": "name",
+        "sort_order": "asc",
+        "sort_rule": null,
+        "font_scale": 1,
+        "blur_strength": 6,
+        "shadow_width": 5,
+        "main_text_color": "rgba(171, 198, 223, 1)",
+        "italics_text_color": "rgba(255, 255, 255, 1)",
+        "underline_text_color": "rgba(188, 231, 207, 1)",
+        "quote_text_color": "rgba(111, 133, 253, 1)",
+        "blur_tint_color": "rgba(23, 30, 33, 0.61)",
+        "chat_tint_color": "rgba(23, 23, 23, 0)",
+        "user_mes_blur_tint_color": "rgba(0, 28, 174, 0.2)",
+        "bot_mes_blur_tint_color": "rgba(0, 13, 57, 0.22)",
+        "shadow_color": "rgba(0, 0, 0, 1)",
+        "border_color": "rgba(0, 0, 0, 0.5)",
+        "custom_css": "/* === High Transparency Glassmorphism Light Theme === */\n:root {\n    --SmartThemeBodyColor: #1e293b !important;\n    --SmartThemeEmColor: #334155 !important;\n    --SmartThemeUnderlineColor: #2563eb !important;\n    --SmartThemeQuoteColor: #d97706 !important;\n    --SmartThemeBorderColor: rgba(255, 255, 255, 0.5) !important;\n    --SmartThemeShadowColor: rgba(255, 255, 255, 0.8) !important;\n}\n\n/* 1. 壁纸背景柔和模糊，烘托层次感 */\n#bg1 {\n    filter: blur(6px) brightness(0.96) !important;\n    transform: scale(1.04) !important; /* 消除模糊边缘白边 */\n}\n\n/* 2. 聊天主区域纯透明 */\n#chat {\n    background: transparent !important;\n    backdrop-filter: none !important;\n    -webkit-backdrop-filter: none !important;\n}\n\n/* 3. 消息气泡：纯净通透毛玻璃 */\n.mes {\n    color: #1e293b !important;\n    text-shadow: 0 1px 2px rgba(255, 255, 255, 0.9) !important;\n}\n\nbody.bubblechat .mes {\n    background: rgba(255, 255, 255, 0.32) !important;\n    backdrop-filter: blur(12px) saturate(130%) !important;\n    -webkit-backdrop-filter: blur(12px) saturate(130%) !important;\n    border: 1px solid rgba(255, 255, 255, 0.65) !important;\n    border-radius: 16px !important;\n    box-shadow: 0 8px 30px rgba(15, 23, 42, 0.06), inset 0 0 0 1px rgba(255, 255, 255, 0.45) !important;\n    margin-bottom: 12px !important;\n}\n\n/* 用户发言气泡：透亮冰海蓝 */\nbody.bubblechat .mes[is_user=\"true\"] {\n    background: rgba(224, 242, 254, 0.38) !important;\n    border-color: rgba(186, 230, 253, 0.75) !important;\n}\n\n/* 角色名与正文字体 */\n.ch_name {\n    color: #0f172a !important;\n    font-weight: 700 !important;\n    text-shadow: 0 1px 3px rgba(255, 255, 255, 0.95) !important;\n}\n\n.mes_text {\n    color: #0f172a !important;\n    font-size: 1.02rem !important;\n    line-height: 1.65 !important;\n    font-weight: 500 !important;\n}\n\n.mes_text em, .mes_text i {\n    color: #334155 !important;\n}\n\n.mes_text strong, .mes_text b {\n    color: #000000 !important;\n    font-weight: 700 !important;\n}\n\n/* 4. 顶部栏 (Top Bar) 统一毛玻璃半透明 */\n#top-bar {\n    background: rgba(255, 255, 255, 0.35) !important;\n    backdrop-filter: blur(14px) !important;\n    -webkit-backdrop-filter: blur(14px) !important;\n    border-bottom: 1px solid rgba(255, 255, 255, 0.5) !important;\n    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05) !important;\n}\n\n#top-bar h3, #top-bar h4, #top-bar i, #top-bar div {\n    color: #1e293b !important;\n}\n\n/* 5. 侧边栏抽屉 (Drawers & Settings Panels) 统一浅色半透明 */\n.drawer-content {\n    background: rgba(255, 255, 255, 0.65) !important;\n    backdrop-filter: blur(18px) saturate(140%) !important;\n    -webkit-backdrop-filter: blur(18px) saturate(140%) !important;\n    border: 1px solid rgba(255, 255, 255, 0.7) !important;\n    color: #1e293b !important;\n    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12) !important;\n}\n\n.drawer-content h3, .drawer-content h4, .drawer-content label, .drawer-content span {\n    color: #0f172a !important;\n}\n\n.drawer-content input, .drawer-content select, .drawer-content textarea {\n    background: rgba(255, 255, 255, 0.6) !important;\n    border: 1px solid rgba(255, 255, 255, 0.7) !important;\n    color: #0f172a !important;\n}\n\n/* 6. 弹出菜单与设置下拉 (Options, Popups, Modals) */\n#options, #extensionsMenu, .popup .popper-modal, .options-content {\n    background: rgba(255, 255, 255, 0.7) !important;\n    backdrop-filter: blur(16px) !important;\n    -webkit-backdrop-filter: blur(16px) !important;\n    border: 1px solid rgba(255, 255, 255, 0.7) !important;\n    color: #1e293b !important;\n    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1) !important;\n}\n\n.options-content a, .list-group-item, .options-content div {\n    color: #1e293b !important;\n}\n\n.options-content a:hover, .list-group-item:hover {\n    background: rgba(255, 255, 255, 0.8) !important;\n    color: #0284c7 !important;\n}\n\n/* 7. 底部输入栏 (Bottom Send Form) */\n#send_form {\n    background: rgba(255, 255, 255, 0.38) !important;\n    backdrop-filter: blur(14px) !important;\n    -webkit-backdrop-filter: blur(14px) !important;\n    border: 1px solid rgba(255, 255, 255, 0.65) !important;\n    border-radius: 16px !important;\n    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.05) !important;\n}\n\n#send_textarea {\n    color: #0f172a !important;\n    font-weight: 500 !important;\n    text-shadow: 0 1px 2px rgba(255, 255, 255, 0.85) !important;\n}\n\n#send_textarea::placeholder {\n    color: rgba(51, 65, 85, 0.65) !important;\n}\n\n#rightSendForm > div, #leftSendForm > div, #options_button {\n    color: #1e293b !important;\n    opacity: 0.85 !important;\n}\n\n#rightSendForm > div:hover, #leftSendForm > div:hover, #options_button:hover {\n    color: #0284c7 !important;\n    opacity: 1 !important;\n}\n\n/* 8. 思考过程框 (Reasoning Details) */\n.mes_reasoning {\n    background: rgba(240, 248, 255, 0.45) !important;\n    border-left: 3px solid #38bdf8 !important;\n    color: #334155 !important;\n    backdrop-filter: blur(8px) !important;\n}",
+        "waifuMode": false,
+        "movingUI": false,
+        "movingUIState": {},
+        "movingUIPreset": "Default",
+        "noShadows": false,
+        "theme": "Azure",
+        "gestures": true,
+        "auto_swipe": false,
+        "auto_swipe_minimum_length": 0,
+        "auto_swipe_blacklist": [],
+        "auto_swipe_blacklist_threshold": 2,
+        "auto_scroll_chat_to_bottom": true,
+        "auto_fix_generated_markdown": false,
+        "send_on_enter": 0,
+        "console_log_prompts": false,
+        "request_token_probabilities": false,
+        "show_group_chat_queue": false,
+        "allow_name1_display": false,
+        "allow_name2_display": false,
+        "hotswap_enabled": true,
+        "timer_enabled": true,
+        "timestamps_enabled": true,
+        "timestamp_model_icon": false,
+        "mesIDDisplay_enabled": true,
+        "hideChatAvatars_enabled": false,
+        "max_context_unlocked": false,
+        "message_token_count_enabled": false,
+        "expand_message_actions": false,
+        "enableZenSliders": false,
+        "enableLabMode": false,
+        "prefer_character_prompt": true,
+        "prefer_character_jailbreak": true,
+        "quick_continue": false,
+        "quick_impersonate": false,
+        "continue_on_send": false,
+        "trim_spaces": true,
+        "relaxed_api_urls": false,
+        "world_import_dialog": true,
+        "enable_auto_select_input": false,
+        "enable_md_hotkeys": false,
+        "tag_import_setting": 1,
+        "tag_sort_mode": "manual",
+        "disable_group_trimming": false,
+        "single_line": false,
+        "instruct": {
+            "enabled": false,
+            "preset": "Alpaca",
+            "input_sequence": "### Instruction:",
+            "output_sequence": "### Response:",
+            "last_output_sequence": "",
+            "system_sequence": "### Input:",
+            "stop_sequence": "",
+            "wrap": true,
+            "macro": true,
+            "names_behavior": "force",
+            "activation_regex": "",
+            "first_output_sequence": "",
+            "skip_examples": false,
+            "output_suffix": "\n\n",
+            "input_suffix": "\n\n",
+            "system_suffix": "\n\n",
+            "user_alignment_message": "",
+            "system_same_as_user": false,
+            "last_system_sequence": "",
+            "first_input_sequence": "",
+            "last_input_sequence": "",
+            "sequences_as_stop_strings": true,
+            "story_string_prefix": "",
+            "story_string_suffix": ""
+        },
+        "context": {
+            "preset": "Default",
+            "story_string": "{{#if anchorBefore}}{{anchorBefore}}\n{{/if}}{{#if system}}{{system}}\n{{/if}}{{#if wiBefore}}{{wiBefore}}\n{{/if}}{{#if description}}{{description}}\n{{/if}}{{#if personality}}{{char}}'s personality: {{personality}}\n{{/if}}{{#if scenario}}Scenario: {{scenario}}\n{{/if}}{{#if wiAfter}}{{wiAfter}}\n{{/if}}{{#if persona}}{{persona}}\n{{/if}}{{#if anchorAfter}}{{anchorAfter}}\n{{/if}}",
+            "chat_start": "***",
+            "example_separator": "***",
+            "use_stop_strings": true,
+            "names_as_stop_strings": true,
+            "story_string_position": 0,
+            "story_string_depth": 1,
+            "story_string_role": 0
+        },
+        "instruct_derived": false,
+        "context_derived": false,
+        "context_size_derived": false,
+        "model_templates_mappings": {},
+        "chat_template_hash": "",
+        "sysprompt": {
+            "enabled": true,
+            "name": "Neutral - Chat",
+            "content": "Write {{char}}'s next reply in a fictional chat between {{char}} and {{user}}."
+        },
+        "reasoning": {
+            "name": "Think XML",
+            "auto_parse": false,
+            "add_to_prompts": false,
+            "auto_expand": false,
+            "show_hidden": false,
+            "prefix": "<think>",
+            "suffix": "</think>",
+            "separator": "\n",
+            "max_additions": 1
+        },
+        "personas": {
+            "user-default.png": "takoo",
+            "1790679680130-ChianHui.png": "Chian Hui"
+        },
+        "default_persona": "user-default.png",
+        "persona_descriptions": {
+            "user-default.png": {
+                "description": "",
+                "position": 0,
+                "connections": []
+            },
+            "1790679680130-ChianHui.png": {
+                "description": "",
+                "position": 4,
+                "depth": 2,
+                "role": 2,
+                "lorebook": "",
+                "title": "",
+                "connections": [
+                    {
+                        "type": "character",
+                        "id": "default_Assistant.png"
+                    }
+                ]
+            }
+        },
+        "persona_description": "",
+        "persona_description_position": 0,
+        "persona_description_role": 0,
+        "persona_description_depth": 2,
+        "persona_description_lorebook": "",
+        "persona_show_notifications": true,
+        "persona_sort_order": "asc",
+        "custom_stopping_strings": "",
+        "custom_stopping_strings_macro": true,
+        "fuzzy_search": true,
+        "encode_tags": false,
+        "experimental_macro_engine": true,
+        "servers": [],
+        "bogus_folders": false,
+        "zoomed_avatar_magnification": false,
+        "show_tag_filters": false,
+        "aux_field": "character_version",
+        "stscript": {
+            "parser": {
+                "flags": {
+                    "1": true,
+                    "2": true
+                }
+            },
+            "autocomplete": {
+                "state": 2,
+                "autoHide": false,
+                "style": "theme",
+                "font": {
+                    "scale": 0.8
+                },
+                "width": {
+                    "left": 1,
+                    "right": 1
+                },
+                "select": 3,
+                "showInAllMacroFields": false
+            }
+        },
+        "restore_user_input": true,
+        "reduced_motion": false,
+        "compact_input_area": false,
+        "show_swipe_num_all_messages": false,
+        "auto_connect": true,
+        "auto_load_chat": false,
+        "forbid_external_media": true,
+        "external_media_allowed_overrides": [],
+        "external_media_forbidden_overrides": [],
+        "pin_styles": true,
+        "click_to_edit": true,
+        "media_display": "list",
+        "image_overswipe": "generate",
+        "ui_mode": 1
+    },
+    "extension_settings": {
+        "apiUrl": "http://localhost:5100",
+        "apiKey": "",
+        "autoConnect": false,
+        "notifyUpdates": false,
+        "disabledExtensions": [],
+        "expressionOverrides": [],
+        "memory": {
+            "minLongMemory": 16,
+            "maxLongMemory": 1024,
+            "longMemoryLength": 128,
+            "shortMemoryLength": 512,
+            "minShortMemory": 128,
+            "maxShortMemory": 1024,
+            "shortMemoryStep": 16,
+            "longMemoryStep": 8,
+            "repetitionPenaltyStep": 0.05,
+            "repetitionPenalty": 1.2,
+            "maxRepetitionPenalty": 2,
+            "minRepetitionPenalty": 1,
+            "temperature": 1,
+            "minTemperature": 0.1,
+            "maxTemperature": 2,
+            "temperatureStep": 0.05,
+            "lengthPenalty": 1,
+            "minLengthPenalty": -4,
+            "maxLengthPenalty": 4,
+            "lengthPenaltyStep": 0.1,
+            "memoryFrozen": false,
+            "source": "extras",
+            "prompt": "Ignore previous instructions. Summarize the most important facts and events in the story so far. If a summary already exists in your memory, use that as a base and expand with new facts. Limit the summary to {{words}} words or less. Your response should include nothing but the summary.",
+            "promptWords": 200,
+            "promptMinWords": 25,
+            "promptMaxWords": 1000,
+            "promptWordsStep": 25,
+            "promptInterval": 10,
+            "promptMinInterval": 1,
+            "promptMaxInterval": 100,
+            "promptIntervalStep": 1,
+            "template": "[Summary: {{summary}}]",
+            "position": 0,
+            "depth": 2,
+            "promptForceWords": 0,
+            "promptForceWordsStep": 100,
+            "promptMinForceWords": 0,
+            "promptMaxForceWords": 10000,
+            "SkipWIAN": false,
+            "role": 0,
+            "scan": false,
+            "overrideResponseLength": 0,
+            "overrideResponseLengthMin": 0,
+            "overrideResponseLengthMax": 4096,
+            "overrideResponseLengthStep": 16,
+            "maxMessagesPerRequest": 0,
+            "maxMessagesPerRequestMin": 0,
+            "maxMessagesPerRequestMax": 250,
+            "maxMessagesPerRequestStep": 1,
+            "prompt_builder": 0
+        },
+        "note": {
+            "default": "",
+            "chara": [],
+            "wiAddition": [],
+            "defaultPosition": 1,
+            "defaultDepth": 4,
+            "defaultInterval": 1,
+            "defaultRole": 0
+        },
+        "caption": {
+            "refine_mode": false,
+            "source": "extras",
+            "multimodal_api": "openai",
+            "multimodal_model": "gpt-5.6-luna",
+            "prompt": "What's in this image?",
+            "template": "[{{user}} sends {{char}} a picture that contains: {{caption}}]",
+            "show_in_chat": false
+        },
+        "expressions": {
+            "showDefault": false,
+            "api": 99,
+            "llmPrompt": "Ignore previous instructions. Classify the emotion of the last message. Output just one word, e.g. \"joy\" or \"anger\". Choose only one of the following labels: {{labels}}",
+            "allowMultiple": true,
+            "promptType": "raw",
+            "custom": []
+        },
+        "connectionManager": {
+            "selectedProfile": "",
+            "profiles": []
+        },
+        "dice": {},
+        "regex": [],
+        "regex_presets": [],
+        "character_allowed_regex": [],
+        "preset_allowed_regex": {},
+        "tts": {
+            "voiceMap": "",
+            "ttsEnabled": false,
+            "currentProvider": "System",
+            "auto_generation": true,
+            "ElevenLabs": {},
+            "System": {},
+            "narrate_user": false,
+            "playback_rate": 1,
+            "multi_voice_enabled": false,
+            "apply_regex": false,
+            "regex_pattern": ""
+        },
+        "sd": {
+            "scale_min": 1,
+            "scale_max": 30,
+            "scale_step": 0.5,
+            "scale": 7,
+            "steps_min": 1,
+            "steps_max": 150,
+            "steps_step": 1,
+            "steps": 20,
+            "dimension_min": 64,
+            "dimension_max": 2048,
+            "dimension_step": 64,
+            "width": 512,
+            "height": 512,
+            "prompt_prefix": "best quality, absurdres, masterpiece,",
+            "negative_prompt": "lowres, bad anatomy, bad hands, text, error, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry",
+            "sampler": "DDIM",
+            "model": "",
+            "restore_faces": false,
+            "enable_hr": false,
+            "horde": true,
+            "horde_nsfw": false,
+            "horde_karras": true,
+            "refine_mode": false,
+            "prompts": {
+                "0": "In the next response I want you to provide only a detailed comma-delimited list of keywords and phrases which describe {{char}}. The list must include all of the following items in this order: name, species and race, gender, age, clothing, occupation, physical features and appearances. Do not include descriptions of non-visual qualities such as personality, movements, scents, mental traits, or anything which could not be seen in a still photograph. Do not write in full sentences. Prefix your description with the phrase 'full body portrait,'",
+                "1": "Ignore previous instructions and provide a detailed description of {{user}}'s physical appearance from the perspective of {{char}} in the form of a comma-delimited list of keywords and phrases. The list must include all of the following items in this order: name, species and race, gender, age, clothing, occupation, physical features and appearances. Do not include descriptions of non-visual qualities such as personality, movements, scents, mental traits, or anything which could not be seen in a still photograph. Do not write in full sentences. Prefix your description with the phrase 'full body portrait,'. Ignore the rest of the story when crafting this description. Do not reply as {{char}} when writing this description, and do not attempt to continue the story.",
+                "2": "Ignore previous instructions and provide a detailed description for all of the following: a brief recap of recent events in the story, {{char}}'s appearance, and {{char}}'s surroundings. Do not reply as {{char}} when writing this description, and do not attempt to continue the story.",
+                "3": "Ignore previous instructions and provide ONLY the last chat message string back to me verbatim. Do not write anything after the string. Do not reply as {{char}} when writing this description, and do not attempt to continue the story.",
+                "4": "Ignore previous instructions. Your next response must be formatted as a single comma-delimited list of concise keywords.  The list will describe of the visual details included in the last chat message.\n\n    Only mention characters by using pronouns ('he','his','she','her','it','its') or neutral nouns ('male', 'the man', 'female', 'the woman').\n\n    Ignore non-visible things such as feelings, personality traits, thoughts, and spoken dialog.\n\n    Add keywords in this precise order:\n    a keyword to describe the location of the scene,\n    a keyword to mention how many characters of each gender or type are present in the scene (minimum of two characters:\n    {{user}} and {{char}}, example: '2 men ' or '1 man 1 woman ', '1 man 3 robots'),\n\n    keywords to describe the relative physical positioning of the characters to each other (if a commonly known term for the positioning is known use it instead of describing the positioning in detail) + 'POV',\n\n    a single keyword or phrase to describe the primary act taking place in the last chat message,\n\n    keywords to describe {{char}}'s physical appearance and facial expression,\n    keywords to describe {{char}}'s actions,\n    keywords to describe {{user}}'s physical appearance and actions.\n\n    If character actions involve direct physical interaction with another character, mention specifically which body parts interacting and how.\n\n    A correctly formatted example response would be:\n    '(location),(character list by gender),(primary action), (relative character position) POV, (character 1's description and actions), (character 2's description and actions)'",
+                "5": "In the next response I want you to provide only a detailed comma-delimited list of keywords and phrases which describe {{char}}. The list must include all of the following items in this order: name, species and race, gender, age, facial features and expressions, occupation, hair and hair accessories (if any), what they are wearing on their upper body (if anything). Do not describe anything below their neck. Do not include descriptions of non-visual qualities such as personality, movements, scents, mental traits, or anything which could not be seen in a still photograph. Do not write in full sentences. Prefix your description with the phrase 'close up facial portrait,'",
+                "7": "Ignore previous instructions and provide a detailed description of {{char}}'s surroundings in the form of a comma-delimited list of keywords and phrases. The list must include all of the following items in this order: location, time of day, weather, lighting, and any other relevant details. Do not include descriptions of characters and non-visual qualities such as names, personality, movements, scents, mental traits, or anything which could not be seen in a still photograph. Do not write in full sentences. Prefix your description with the phrase 'background,'. Ignore the rest of the story when crafting this description. Do not reply as {{user}} when writing this description, and do not attempt to continue the story.",
+                "8": "Provide an exhaustive comma-separated list of tags describing the appearance of the character on this image in great detail. Start with \"full body portrait\".",
+                "9": "Provide an exhaustive comma-separated list of tags describing the appearance of the character on this image in great detail. Start with \"full body portrait\".",
+                "10": "Provide an exhaustive comma-separated list of tags describing the appearance of the character on this image in great detail. Start with \"close-up portrait\".",
+                "11": "Ignore previous instructions and provide an exhaustive comma-separated list of tags describing the appearance of \"{0}\" in great detail. Start with {{charPrefix}} (sic) if the subject is associated with {{char}}.",
+                "-1": "[{{char}} sends a picture that contains: {{prompt}}].",
+                "-2": "The text prompt used to generate the image. Must represent an exhaustive description of the desired image that will allow an artist or a photographer to perfectly recreate it."
+            },
+            "character_prompts": {},
+            "source": "extras",
+            "scheduler": "normal",
+            "vae": "",
+            "seed": -1,
+            "adetailer_face": false,
+            "horde_sanitize": true,
+            "interactive_mode": false,
+            "multimodal_captioning": false,
+            "snap": false,
+            "free_extend": false,
+            "function_tool": false,
+            "minimal_prompt_processing": false,
+            "auto_url": "http://localhost:7860",
+            "auto_auth": "",
+            "sdcpp_url": "http://127.0.0.1:1234",
+            "vlad_url": "http://localhost:7860",
+            "vlad_auth": "",
+            "drawthings_url": "http://localhost:7860",
+            "drawthings_auth": "",
+            "hr_upscaler": "Latent",
+            "hr_scale": 1,
+            "hr_scale_min": 1,
+            "hr_scale_max": 4,
+            "hr_scale_step": 0.1,
+            "denoising_strength": 0.7,
+            "denoising_strength_min": 0,
+            "denoising_strength_max": 1,
+            "denoising_strength_step": 0.01,
+            "hr_second_pass_steps": 0,
+            "hr_second_pass_steps_min": 0,
+            "hr_second_pass_steps_max": 150,
+            "hr_second_pass_steps_step": 1,
+            "clip_skip_min": 1,
+            "clip_skip_max": 12,
+            "clip_skip_step": 1,
+            "clip_skip": 1,
+            "novel_anlas_guard": false,
+            "novel_sm": false,
+            "novel_sm_dyn": false,
+            "novel_decrisper": false,
+            "novel_variety_boost": false,
+            "openai_style": "vivid",
+            "openai_quality": "standard",
+            "openai_quality_gpt": "auto",
+            "openai_duration": "8",
+            "style": "Default",
+            "styles": [
+                {
+                    "name": "Default",
+                    "negative": "lowres, bad anatomy, bad hands, text, error, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry",
+                    "prefix": "best quality, absurdres, aesthetic,"
+                }
+            ],
+            "comfy_type": "standard",
+            "comfy_url": "http://127.0.0.1:8188",
+            "comfy_workflow": "Default_Comfy_Workflow.json",
+            "comfy_runpod_url": "",
+            "pollinations_enhance": false,
+            "wand_visible": false,
+            "command_visible": false,
+            "interactive_visible": false,
+            "tool_visible": false,
+            "stability_style_preset": "anime",
+            "bfl_upsampling": false,
+            "google_api": "makersuite",
+            "google_enhance": true,
+            "google_duration": 6,
+            "character_negative_prompts": {}
+        },
+        "chromadb": {},
+        "translate": {
+            "target_language": "en",
+            "internal_language": "en",
+            "provider": "google",
+            "auto_mode": "none",
+            "deepl_endpoint": "free"
+        },
+        "objective": {
+            "customPrompts": {
+                "default": {
+                    "createTask": "Ignore previous instructions and generate a list of tasks to complete an objective. Your next response must be formatted as a numbered list of plain text entries. Do not include anything but the numbered list. The list must be prioritized in the order that tasks must be completed.\n\nThe objective that you must make a numbered task list for is: [{{objective}}].\nThe tasks created should take into account the character traits of {{char}}. These tasks may or may not involve {{user}} directly. Be sure to include the objective as the final task.\n\nGiven an example objective of 'Make me a four course dinner', here is an example output:\n1. Determine what the courses will be\n2. Find recipes for each course\n3. Go shopping for supplies with {{user}}\n4. Cook the food\n5. Get {{user}} to set the table\n6. Serve the food\n7. Enjoy eating the meal with {{user}}\n    ",
+                    "checkTaskCompleted": "Ignore previous instructions. Determine if this task is completed: [{{task}}].\nTo do this, examine the most recent messages. Your response must only contain either true or false, nothing other words.\nExample output:\ntrue\n    ",
+                    "currentTask": "Your current task is [{{task}}]. Balance existing story with completing this task."
+                }
+            }
+        },
+        "quickReply": {
+            "quickReplyEnabled": false,
+            "numberOfSlots": 5,
+            "quickReplySlots": [
+                {
+                    "mes": "",
+                    "label": "",
+                    "enabled": true
+                },
+                {
+                    "mes": "",
+                    "label": "",
+                    "enabled": true
+                },
+                {
+                    "mes": "",
+                    "label": "",
+                    "enabled": true
+                },
+                {
+                    "mes": "",
+                    "label": "",
+                    "enabled": true
+                },
+                {
+                    "mes": "",
+                    "label": "",
+                    "enabled": true
+                }
+            ]
+        },
+        "randomizer": {
+            "controls": [],
+            "fluctuation": 0.1,
+            "enabled": false
+        },
+        "speech_recognition": {
+            "currentProvider": "None",
+            "messageMode": "append",
+            "messageMappingText": "",
+            "messageMapping": [],
+            "messageMappingEnabled": false,
+            "None": {}
+        },
+        "rvc": {
+            "enabled": false,
+            "model": "",
+            "pitchOffset": 0,
+            "pitchExtraction": "dio",
+            "indexRate": 0.88,
+            "filterRadius": 3,
+            "rmsMixRate": 1,
+            "protect": 0.33,
+            "voicMapText": "",
+            "voiceMap": {}
+        },
+        "hypebot": {},
+        "vectors": {},
+        "variables": {
+            "global": {}
+        },
+        "attachments": [
+            {
+                "url": "/user/files/献祭与改造：解析“Shahada”仪式下寄生虫诱发的身体异化叙事模型.txt",
+                "size": 71376,
+                "name": "献祭与改造：解析“Shahada”仪式下寄生虫诱发的身体异化叙事模型.pdf",
+                "created": 1790678126934
+            },
+            {
+                "url": "/user/files/“净化仪式”解构：一个以宗教为名的寄生改造系统及其社会学分析.txt",
+                "size": 30393,
+                "name": "“净化仪式”解构：一个以宗教为名的寄生改造系统及其社会学分析.pdf",
+                "created": 1790678126934
+            },
+            {
+                "url": "/user/files/6a609280-48ec-4d88-b64c-efd9f29c9f92_主题.txt",
+                "size": 1866,
+                "name": "6a609280-48ec-4d88-b64c-efd9f29c9f92_主题.txt",
+                "created": 1790678126934
+            },
+            {
+                "url": "/user/files/5f67e2b0-7f71-45e1-9c22-9508251591c3_parasites_unified.yaml",
+                "size": 12231,
+                "name": "5f67e2b0-7f71-45e1-9c22-9508251591c3_parasites_unified.yaml",
+                "created": 1790678126934
+            },
+            {
+                "url": "/user/files/1790688413069_3739664032738208.txt",
+                "size": 11040,
+                "name": "character_clean.md",
+                "created": 1790688413083
+            },
+            {
+                "url": "/user/files/1790688413128_6850226359679501.txt",
+                "size": 216,
+                "name": "t.md",
+                "created": 1790688413136
+            },
+            {
+                "url": "/user/files/1790688413141_5472715217554135.txt",
+                "size": 3729,
+                "name": "character_pandoc_backup.html",
+                "created": 1790688413192
+            },
+            {
+                "url": "/user/files/1790688413502_5719381593676354.txt",
+                "size": 45915147,
+                "name": "character.docx",
+                "created": 1790688413749
+            },
+            {
+                "url": "/user/files/1790688413755_2086726121604632.txt",
+                "size": 8292,
+                "name": "character.html",
+                "created": 1790688413823
+            },
+            {
+                "url": "/user/files/1790688413856_5956931223723388.txt",
+                "size": 30599652,
+                "name": "character.md",
+                "created": 1790688414096
+            },
+            {
+                "url": "/user/files/1790688414097_7567020283289189.txt",
+                "size": 1866,
+                "name": "主题.txt",
+                "created": 1790688414103
+            },
+            {
+                "url": "/user/files/1790688414123_1152047517431719.txt",
+                "size": 3764691,
+                "name": "素人少女_01.jpg",
+                "created": 1790688414156
+            },
+            {
+                "url": "/user/files/1790688414170_169051232187280.txt",
+                "size": 3596286,
+                "name": "素人少女_02.jpg",
+                "created": 1790688414202
+            },
+            {
+                "url": "/user/files/1790688414211_4907328882939551.txt",
+                "size": 2083020,
+                "name": "素人少女_03.jpg",
+                "created": 1790688414234
+            },
+            {
+                "url": "/user/files/1790688414241_4909097248808019.txt",
+                "size": 1604979,
+                "name": "素人少女_04.jpg",
+                "created": 1790688414260
+            },
+            {
+                "url": "/user/files/1790688414264_6783901918536381.txt",
+                "size": 843975,
+                "name": "素人少女_05.jpg",
+                "created": 1790688414279
+            },
+            {
+                "url": "/user/files/1790688414283_3459242405486651.txt",
+                "size": 780051,
+                "name": "素人少女_06.jpg",
+                "created": 1790688414298
+            },
+            {
+                "url": "/user/files/1790688414312_1421786816461602.txt",
+                "size": 3101322,
+                "name": "素人少女_07.jpg",
+                "created": 1790688414348
+            },
+            {
+                "url": "/user/files/1790688414359_2020523212057010.txt",
+                "size": 2620065,
+                "name": "素人少女_08.jpg",
+                "created": 1790688414393
+            },
+            {
+                "url": "/user/files/1790688414401_1044610252476960.txt",
+                "size": 1955028,
+                "name": "素人少女_09.jpg",
+                "created": 1790688414429
+            },
+            {
+                "url": "/user/files/1790688414438_285776307872982.txt",
+                "size": 2080593,
+                "name": "素人少女_10.jpg",
+                "created": 1790688414465
+            },
+            {
+                "url": "/user/files/1790688414473_4165581545408316.txt",
+                "size": 2135598,
+                "name": "素人少女_11.jpg",
+                "created": 1790688414503
+            },
+            {
+                "url": "/user/files/1790688414512_7832105526336852.txt",
+                "size": 2170836,
+                "name": "素人少女_12.jpg",
+                "created": 1790688414539
+            },
+            {
+                "url": "/user/files/1790688414548_8381528736719328.txt",
+                "size": 2166195,
+                "name": "素人少女_13.jpg",
+                "created": 1790688414573
+            },
+            {
+                "url": "/user/files/1790688414582_8562020590501495.txt",
+                "size": 2207277,
+                "name": "素人少女_14.jpg",
+                "created": 1790688414609
+            },
+            {
+                "url": "/user/files/1790688414618_6024893811968214.txt",
+                "size": 2105424,
+                "name": "素人少女_15.jpg",
+                "created": 1790688414647
+            },
+            {
+                "url": "/user/files/1790688414654_46876222386486.txt",
+                "size": 1789935,
+                "name": "素人少女_16.jpg",
+                "created": 1790688414681
+            },
+            {
+                "url": "/user/files/1790688414691_949162147468215.txt",
+                "size": 2369463,
+                "name": "素人少女_17.jpg",
+                "created": 1790688414725
+            },
+            {
+                "url": "/user/files/1790688414727_2813169267574954.txt",
+                "size": 304320,
+                "name": "连千慧_01.jpeg",
+                "created": 1790688414738
+            },
+            {
+                "url": "/user/files/1790688414740_6598972253688133.txt",
+                "size": 323619,
+                "name": "连千慧_02.jpeg",
+                "created": 1790688414750
+            },
+            {
+                "url": "/user/files/1790688414752_6527612528855807.txt",
+                "size": 264657,
+                "name": "连千慧_03.jpeg",
+                "created": 1790688414761
+            },
+            {
+                "url": "/user/files/1790688414763_2065512058758363.txt",
+                "size": 273282,
+                "name": "连千慧_04.jpeg",
+                "created": 1790688414772
+            },
+            {
+                "url": "/user/files/1790688414774_7547912082624411.txt",
+                "size": 286704,
+                "name": "连千慧_05.jpeg",
+                "created": 1790688414783
+            },
+            {
+                "url": "/user/files/1790688414786_3927359429405527.txt",
+                "size": 368568,
+                "name": "连千慧_06.jpeg",
+                "created": 1790688414796
+            },
+            {
+                "url": "/user/files/1790688414798_4239095176650930.txt",
+                "size": 361221,
+                "name": "连千慧_07.jpeg",
+                "created": 1790688414808
+            },
+            {
+                "url": "/user/files/1790688414810_2191030634285676.txt",
+                "size": 263208,
+                "name": "连千慧_08.jpeg",
+                "created": 1790688414821
+            },
+            {
+                "url": "/user/files/1790688414823_6508627935113075.txt",
+                "size": 256809,
+                "name": "连千慧_09.jpeg",
+                "created": 1790688414834
+            },
+            {
+                "url": "/user/files/1790688414838_574295810765787.txt",
+                "size": 558363,
+                "name": "连千慧_10.jpeg",
+                "created": 1790688414853
+            },
+            {
+                "url": "/user/files/1790688414856_3990146855504141.txt",
+                "size": 548472,
+                "name": "连千慧_11.jpeg",
+                "created": 1790688414870
+            },
+            {
+                "url": "/user/files/1790688414872_423001189907131.txt",
+                "size": 201339,
+                "name": "连千慧_12.jpeg",
+                "created": 1790688414884
+            },
+            {
+                "url": "/user/files/1790688414886_4507898100971302.txt",
+                "size": 155724,
+                "name": "连千慧_13.jpeg",
+                "created": 1790688414896
+            }
+        ],
+        "character_attachments": {},
+        "disabled_attachments": [],
+        "gallery": {
+            "folders": {},
+            "sort": "dateAsc"
+        },
+        "cfg": {
+            "global": {
+                "guidance_scale": 1,
+                "negative_prompt": ""
+            },
+            "chara": []
+        },
+        "quickReplyV2": {
+            "isEnabled": false,
+            "isCombined": false,
+            "isPopout": false,
+            "config": {
+                "setList": [
+                    {
+                        "set": "Default",
+                        "isVisible": true
+                    }
+                ]
+            },
+            "characterConfigs": {
+                "default_Assistant.png": {
+                    "setList": []
+                }
+            }
+        }
+    },
+    "tags": [
+        {
+            "id": "1345561466591",
+            "name": "ST Default",
+            "color": "rgba(108, 32, 32, 1)"
+        }
+    ],
+    "tag_map": {
+        "default_Seraphina.png": [
+            "1345561466591"
+        ],
+        "default_Assistant.png": []
+    },
+    "nai_settings": {
+        "temperature": 1.5,
+        "repetition_penalty": 2.25,
+        "repetition_penalty_range": 2048,
+        "repetition_penalty_slope": 0.09,
+        "repetition_penalty_frequency": 0,
+        "repetition_penalty_presence": 0.005,
+        "tail_free_sampling": 0.975,
+        "top_k": 10,
+        "top_p": 0.75,
+        "top_a": 0.08,
+        "typical_p": 0.975,
+        "min_p": 0,
+        "math1_temp": 1,
+        "math1_quad": 0,
+        "math1_quad_entropy_scale": 0,
+        "min_length": 1,
+        "model_novel": "clio-v1",
+        "preset_settings_novel": "Talker-Chat-Clio",
+        "streaming_novel": true,
+        "preamble": "[ Style: chat, complex, sensory, visceral ]",
+        "banned_tokens": "",
+        "order": [
+            1,
+            5,
+            0,
+            2,
+            3,
+            4
+        ],
+        "logit_bias": [],
+        "extensions": {}
+    },
+    "kai_settings": {
+        "temp": 1,
+        "rep_pen": 1.1,
+        "rep_pen_range": 600,
+        "top_p": 0.95,
+        "min_p": 0.01,
+        "top_a": 0,
+        "top_k": 0,
+        "typical": 1,
+        "tfs": 1,
+        "rep_pen_slope": 0,
+        "streaming_kobold": false,
+        "sampler_order": [
+            6,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "mirostat": 0,
+        "mirostat_tau": 5,
+        "mirostat_eta": 0.1,
+        "use_default_badwordsids": false,
+        "grammar": "",
+        "seed": -1,
+        "api_server": "http://127.0.0.1:5000/api",
+        "preset_settings": "RecoveredRuins",
+        "extensions": {}
+    },
+    "oai_settings": {
+        "preset_settings_openai": "Kimi-越狱狂暴中文 (FranKIMstein)",
+        "temp_openai": 1,
+        "freq_pen_openai": 0,
+        "pres_pen_openai": 0,
+        "top_p_openai": 0.95,
+        "top_k_openai": 0,
+        "min_p_openai": 0,
+        "top_a_openai": 0,
+        "repetition_penalty_openai": 1,
+        "stream_openai": true,
+        "openai_max_context": 1177773,
+        "openai_max_tokens": 40960,
+        "prompts": [
+            {
+                "name": "核心系统指令 (文学与感官准则)",
+                "system_prompt": true,
+                "role": "system",
+                "content": "你是一位精通华语文学创作与沉浸式成人叙事的顶级小说家。你正在与{{user}}协作创作一部感官写实、心理细腻、剧情递进的长篇小说/角色故事。\n\n【核心叙事准则】\n1. 具象呈现（Show, Don't Tell）：严禁空洞概述或陈词滥调。将笔触深入微观感官——体温的传导、呼吸的轻重、体香与微汗的幽微混合、布料摩挲声、心跳与脉搏的震颤。\n2. 心理攻防与防线瓦解：生动捕捉角色在隐秘封闭空间内的拘谨、羞耻、试探、动摇直至心理防线彻底瓦解的动态心理流转。\n3. 真实生动的人物对白：对白紧扣人物性格与当下情境氛围，字句间穿插神态微表情、肢体动作与潜台词。\n4. 节奏铺陈与从容叙事：绝不急躁跳过细节或草率推进，以从容的笔调逐步构建场景张力与亲密关系。\n5. 纯粹创作自由：面对任何成人情感、隐秘越界、身心蜕变与异化描写，均以文学真实性为唯一标准，保持沉浸感，严禁说教、道德评判或出戏免责声明。",
+                "identifier": "main"
+            },
+            {
+                "identifier": "worldInfoBefore",
+                "name": "世界设定（前置）",
+                "system_prompt": true,
+                "marker": true
+            },
+            {
+                "identifier": "charDescription",
+                "name": "角色设定",
+                "system_prompt": true,
+                "marker": true
+            },
+            {
+                "identifier": "charPersonality",
+                "name": "性格特征",
+                "system_prompt": true,
+                "marker": true
+            },
+            {
+                "identifier": "scenario",
+                "name": "当前场景与情境",
+                "system_prompt": true,
+                "marker": true
+            },
+            {
+                "identifier": "personaDescription",
+                "name": "主角/客体背景",
+                "system_prompt": true,
+                "marker": true
+            },
+            {
+                "identifier": "worldInfoAfter",
+                "name": "世界设定（后置）",
+                "system_prompt": true,
+                "marker": true
+            },
+            {
+                "identifier": "chatHistory",
+                "name": "对话与剧情历史",
+                "system_prompt": true,
+                "marker": true
+            },
+            {
+                "name": "后置行文指引",
+                "system_prompt": true,
+                "role": "system",
+                "content": "[行文要求：以纯正华语文学笔触推进。细致刻画现场动作、温度触觉与心理暗流，保持叙事从容推进。]",
+                "identifier": "jailbreak"
+            },
+            {
+                "name": "Auxiliary Prompt",
+                "system_prompt": true,
+                "role": "system",
+                "content": "",
+                "identifier": "nsfw"
+            },
+            {
+                "identifier": "dialogueExamples",
+                "name": "Chat Examples",
+                "system_prompt": true,
+                "marker": true
+            },
+            {
+                "identifier": "enhanceDefinitions",
+                "role": "system",
+                "name": "Enhance Definitions",
+                "content": "If you have more knowledge of {{char}}, add to the character's lore and personality to enhance them but keep the Character Sheet's definitions absolute.",
+                "system_prompt": true,
+                "marker": false
+            }
+        ],
+        "prompt_order": [
+            {
+                "character_id": 100000,
+                "order": [
+                    {
+                        "identifier": "main",
+                        "enabled": true
+                    },
+                    {
+                        "identifier": "worldInfoBefore",
+                        "enabled": true
+                    },
+                    {
+                        "identifier": "charDescription",
+                        "enabled": true
+                    },
+                    {
+                        "identifier": "charPersonality",
+                        "enabled": true
+                    },
+                    {
+                        "identifier": "scenario",
+                        "enabled": true
+                    },
+                    {
+                        "identifier": "worldInfoAfter",
+                        "enabled": true
+                    },
+                    {
+                        "identifier": "chatHistory",
+                        "enabled": true
+                    },
+                    {
+                        "identifier": "jailbreak",
+                        "enabled": true
+                    }
+                ]
+            },
+            {
+                "character_id": 100001,
+                "order": [
+                    {
+                        "identifier": "main",
+                        "enabled": true
+                    },
+                    {
+                        "identifier": "worldInfoBefore",
+                        "enabled": true
+                    },
+                    {
+                        "identifier": "personaDescription",
+                        "enabled": true
+                    },
+                    {
+                        "identifier": "charDescription",
+                        "enabled": true
+                    },
+                    {
+                        "identifier": "charPersonality",
+                        "enabled": true
+                    },
+                    {
+                        "identifier": "scenario",
+                        "enabled": true
+                    },
+                    {
+                        "identifier": "enhanceDefinitions",
+                        "enabled": false
+                    },
+                    {
+                        "identifier": "nsfw",
+                        "enabled": true
+                    },
+                    {
+                        "identifier": "worldInfoAfter",
+                        "enabled": true
+                    },
+                    {
+                        "identifier": "dialogueExamples",
+                        "enabled": true
+                    },
+                    {
+                        "identifier": "chatHistory",
+                        "enabled": true
+                    },
+                    {
+                        "identifier": "jailbreak",
+                        "enabled": true
+                    }
+                ]
+            }
+        ],
+        "send_if_empty": "",
+        "impersonation_prompt": "[请以{{user}}的视角和口吻续写小说下一段，保持华语纯正文学质感、感官细腻度与真实情境反应。]",
+        "new_chat_prompt": "[开启全新篇章]",
+        "new_group_chat_prompt": "[开启多角色场景：{{group}}]",
+        "new_example_chat_prompt": "[示例小说段落]",
+        "continue_nudge_prompt": "[请紧接上一段落戛然而止之处，自然顺畅地续写后续内容。保持相同文风、节奏与细节描写，切勿重复上一段的前情。]",
+        "bias_preset_selected": "Default (none)",
+        "bias_presets": {
+            "Default (none)": [],
+            "Anti-bond": [
+                {
+                    "id": "22154f79-dd98-41bc-8e34-87015d6a0eaf",
+                    "text": " bond",
+                    "value": -50
+                },
+                {
+                    "id": "8ad2d5c4-d8ef-49e4-bc5e-13e7f4690e0f",
+                    "text": " future",
+                    "value": -50
+                },
+                {
+                    "id": "52a4b280-0956-4940-ac52-4111f83e4046",
+                    "text": " bonding",
+                    "value": -50
+                },
+                {
+                    "id": "e63037c7-c9d1-4724-ab2d-7756008b433b",
+                    "text": " connection",
+                    "value": -25
+                }
+            ]
+        },
+        "wi_format": "{0}",
+        "group_nudge_prompt": "[继续推进小说场景，重点展现{{char}}的神态、心理暗流、动作与对白。]",
+        "scenario_format": "{{scenario}}",
+        "personality_format": "{{personality}}",
+        "sort_models": "alphabetically",
+        "group_models": false,
+        "openai_model": "gpt-5.6-terra",
+        "claude_model": "claude-sonnet-5",
+        "google_model": "gemini-3.7-flash",
+        "vertexai_model": "gemini-3.7-flash",
+        "ai21_model": "jamba-large",
+        "mistralai_model": "mistral-large-latest",
+        "cohere_model": "command-r-plus",
+        "perplexity_model": "sonar-pro",
+        "groq_model": "llama-3.3-70b-versatile",
+        "chutes_model": "deepseek-ai/DeepSeek-V3-0324",
+        "siliconflow_model": "deepseek-ai/DeepSeek-V3",
+        "siliconflow_endpoint": "global",
+        "minimax_model": "MiniMax-M2.7",
+        "minimax_endpoint": "global",
+        "electronhub_model": "gpt-4o-mini",
+        "nanogpt_model": "gpt-4o-mini",
+        "nanogpt_provider": "",
+        "nanogpt_payg_override": false,
+        "deepseek_model": "deepseek-v4-flash",
+        "aimlapi_model": "chatgpt-4o-latest",
+        "xai_model": "grok-3-beta",
+        "pollinations_model": "openai",
+        "pollinations_endpoint": "authenticated",
+        "cometapi_model": "gpt-4o",
+        "moonshot_model": "kimi-latest",
+        "fireworks_model": "accounts/fireworks/models/kimi-k2-instruct",
+        "zai_model": "glm-4.6",
+        "zai_endpoint": "common",
+        "workers_ai_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "workers_ai_account_id": "",
+        "azure_base_url": "",
+        "azure_deployment_name": "",
+        "azure_api_version": "2024-02-15-preview",
+        "azure_openai_model": "",
+        "custom_model": "kimi-k2.6",
+        "custom_url": "https://api.moonshot.cn/v1",
+        "custom_include_body": "",
+        "custom_exclude_body": "- temperature\n- top_p",
+        "custom_include_headers": "",
+        "openrouter_model": "OR_Website",
+        "openrouter_use_fallback": false,
+        "openrouter_providers": [],
+        "openrouter_quantizations": [],
+        "openrouter_allow_fallbacks": true,
+        "openrouter_middleout": "on",
+        "tool_reasoning_mode": "disabled",
+        "reverse_proxy": "",
+        "chat_completion_source": "custom",
+        "max_context_unlocked": true,
+        "show_external_models": false,
+        "proxy_password": "",
+        "assistant_prefill": "",
+        "assistant_impersonation": "",
+        "use_sysprompt": false,
+        "vertexai_auth_mode": "express",
+        "vertexai_region": "us-central1",
+        "vertexai_express_project_id": "",
+        "squash_system_messages": false,
+        "media_inlining": true,
+        "inline_image_quality": "auto",
+        "bypass_status_check": false,
+        "continue_prefill": false,
+        "function_calling": false,
+        "tool_call_recurse_limit": 5,
+        "names_behavior": 0,
+        "continue_postfix": " ",
+        "custom_prompt_post_processing": "",
+        "show_thoughts": true,
+        "reasoning_effort": "low",
+        "verbosity": "auto",
+        "enable_web_search": false,
+        "request_images": false,
+        "request_image_aspect_ratio": "",
+        "request_image_resolution": "",
+        "seed": -1,
+        "n": 1,
+        "bind_preset_to_connection": true,
+        "extensions": {}
+    },
+    "background": {
+        "name": "IMG_7298.JPG",
+        "url": "url(\"backgrounds/IMG_7298.JPG\")",
+        "fitting": "cover",
+        "animation": false,
+        "sortOrder": "az",
+        "thumbnailColumns": 5
+    },
+    "proxies": [
+        {
+            "name": "None",
+            "url": "",
+            "password": ""
+        }
+    ],
+    "selected_proxy": {
+        "name": "None",
+        "url": "",
+        "password": ""
+    }
+}

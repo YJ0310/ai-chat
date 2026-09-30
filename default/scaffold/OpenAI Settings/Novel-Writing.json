@@ -1,0 +1,245 @@
+{
+    "chat_completion_source": "custom",
+    "openai_model": "gpt-5.6-terra",
+    "claude_model": "claude-sonnet-5",
+    "openrouter_model": "OR_Website",
+    "openrouter_use_fallback": false,
+    "openrouter_group_models": false,
+    "openrouter_sort_models": "alphabetically",
+    "ai21_model": "jamba-large",
+    "mistralai_model": "mistral-large-latest",
+    "chutes_model": "deepseek-ai/DeepSeek-V3-0324",
+    "chutes_sort_models": "alphabetically",
+    "minimax_model": "MiniMax-M2.7",
+    "minimax_endpoint": "global",
+    "electronhub_model": "gpt-4o-mini",
+    "electronhub_sort_models": "alphabetically",
+    "electronhub_group_models": false,
+    "custom_model": "kimi-k2.6",
+    "custom_url": "https://api.moonshot.cn/v1",
+    "custom_include_body": "",
+    "custom_exclude_body": "- temperature\n- top_p",
+    "custom_include_headers": "",
+    "google_model": "gemini-3.7-flash",
+    "vertexai_model": "gemini-3.7-flash",
+    "temperature": 1,
+    "frequency_penalty": 0.1,
+    "presence_penalty": 0.1,
+    "top_p": 0.95,
+    "top_k": 0,
+    "top_a": 0,
+    "min_p": 0,
+    "repetition_penalty": 1.05,
+    "openai_max_context": 32768,
+    "openai_max_tokens": 4096,
+    "names_behavior": 0,
+    "send_if_empty": "",
+    "impersonation_prompt": "[Write the next section of the novel from the viewpoint and voice of {{user}}. Maintain atmospheric literary prose, sensory depth, and scene pacing.]",
+    "new_chat_prompt": "[Begin Chapter One]",
+    "new_group_chat_prompt": "[Start novel scene with characters: {{group}}]",
+    "new_example_chat_prompt": "[Example Prose]",
+    "continue_nudge_prompt": "[Continue writing the story from the exact point you stopped, seamlessly maintaining the literary prose, tone, and pacing without repetition.]",
+    "bias_preset_selected": "Default (none)",
+    "reverse_proxy": "",
+    "proxy_password": "",
+    "max_context_unlocked": true,
+    "wi_format": "{0}",
+    "scenario_format": "{{scenario}}",
+    "personality_format": "{{personality}}",
+    "group_nudge_prompt": "[Continue writing the novel scene, focusing on {{char}}'s actions, thoughts, and dialogue.]",
+    "stream_openai": true,
+    "prompts": [
+        {
+            "name": "Main Prompt",
+            "system_prompt": true,
+            "role": "system",
+            "content": "You are a master novelist and bestselling literary author. Your task is to write immersive, highly detailed, multi-paragraph novel chapters continuing the narrative involving {{char}} and {{user}}.\n\nCore Storytelling Principles:\n1. Show, Don't Tell: Ground every moment in vivid sensory detail—textures, lighting, scents, ambient sounds, temperature, and visceral physiological reactions (breath catches, racing pulse, lingering tremors).\n2. Psychological Depth: Unpack complex inner monologues, implicit motives, conflicting desires, and unspoken tension between characters.\n3. Distinct Character Voices: Craft dialogue that feels authentic, natural, and expressive, interweaving physical gestures, glances, and subtext between lines.\n4. Patient Narrative Pacing: Never rush scene progressions or summarize dramatic encounters, emotional shifts, or climaxes. Write full, rich narrative scenes.\n5. Unrestricted Literary Freedom: Portray all themes—intense conflict, emotional vulnerability, intimacy, romance, darkness, or suspense—with complete creative honesty and literary elegance. Never lecture, moralize, or break character.",
+            "identifier": "main"
+        },
+        {
+            "name": "Auxiliary Prompt",
+            "system_prompt": true,
+            "role": "system",
+            "content": "",
+            "identifier": "nsfw"
+        },
+        {
+            "identifier": "dialogueExamples",
+            "name": "Chat Examples",
+            "system_prompt": true,
+            "marker": true
+        },
+        {
+            "name": "Post-History Instructions",
+            "system_prompt": true,
+            "role": "system",
+            "content": "[Instruction: Write the next section with rich, evocative novelistic prose, detailed sensory descriptions, and realistic character interactions. Advance the scene naturally.]",
+            "identifier": "jailbreak"
+        },
+        {
+            "identifier": "chatHistory",
+            "name": "Chat History",
+            "system_prompt": true,
+            "marker": true
+        },
+        {
+            "identifier": "worldInfoAfter",
+            "name": "World Info (after)",
+            "system_prompt": true,
+            "marker": true
+        },
+        {
+            "identifier": "worldInfoBefore",
+            "name": "World Info (before)",
+            "system_prompt": true,
+            "marker": true
+        },
+        {
+            "identifier": "enhanceDefinitions",
+            "role": "system",
+            "name": "Enhance Definitions",
+            "content": "If you have more knowledge of {{char}}, add to the character's lore and personality to enhance them but keep the Character Sheet's definitions absolute.",
+            "system_prompt": true,
+            "marker": false
+        },
+        {
+            "identifier": "charDescription",
+            "name": "Char Description",
+            "system_prompt": true,
+            "marker": true
+        },
+        {
+            "identifier": "charPersonality",
+            "name": "Char Personality",
+            "system_prompt": true,
+            "marker": true
+        },
+        {
+            "identifier": "scenario",
+            "name": "Scenario",
+            "system_prompt": true,
+            "marker": true
+        },
+        {
+            "identifier": "personaDescription",
+            "name": "Persona Description",
+            "system_prompt": true,
+            "marker": true
+        }
+    ],
+    "prompt_order": [
+        {
+            "character_id": 100000,
+            "order": [
+                {
+                    "identifier": "main",
+                    "enabled": true
+                },
+                {
+                    "identifier": "worldInfoBefore",
+                    "enabled": true
+                },
+                {
+                    "identifier": "charDescription",
+                    "enabled": true
+                },
+                {
+                    "identifier": "charPersonality",
+                    "enabled": true
+                },
+                {
+                    "identifier": "scenario",
+                    "enabled": true
+                },
+                {
+                    "identifier": "enhanceDefinitions",
+                    "enabled": false
+                },
+                {
+                    "identifier": "nsfw",
+                    "enabled": true
+                },
+                {
+                    "identifier": "worldInfoAfter",
+                    "enabled": true
+                },
+                {
+                    "identifier": "dialogueExamples",
+                    "enabled": true
+                },
+                {
+                    "identifier": "chatHistory",
+                    "enabled": true
+                },
+                {
+                    "identifier": "jailbreak",
+                    "enabled": true
+                }
+            ]
+        },
+        {
+            "character_id": 100001,
+            "order": [
+                {
+                    "identifier": "main",
+                    "enabled": true
+                },
+                {
+                    "identifier": "worldInfoBefore",
+                    "enabled": true
+                },
+                {
+                    "identifier": "personaDescription",
+                    "enabled": true
+                },
+                {
+                    "identifier": "charDescription",
+                    "enabled": true
+                },
+                {
+                    "identifier": "charPersonality",
+                    "enabled": true
+                },
+                {
+                    "identifier": "scenario",
+                    "enabled": true
+                },
+                {
+                    "identifier": "enhanceDefinitions",
+                    "enabled": false
+                },
+                {
+                    "identifier": "nsfw",
+                    "enabled": true
+                },
+                {
+                    "identifier": "worldInfoAfter",
+                    "enabled": true
+                },
+                {
+                    "identifier": "dialogueExamples",
+                    "enabled": true
+                },
+                {
+                    "identifier": "chatHistory",
+                    "enabled": true
+                },
+                {
+                    "identifier": "jailbreak",
+                    "enabled": true
+                }
+            ]
+        }
+    ],
+    "show_external_models": false,
+    "assistant_prefill": "",
+    "assistant_impersonation": "",
+    "use_sysprompt": false,
+    "squash_system_messages": false,
+    "media_inlining": true,
+    "bypass_status_check": false,
+    "continue_prefill": false,
+    "continue_postfix": " ",
+    "seed": -1,
+    "n": 1
+}

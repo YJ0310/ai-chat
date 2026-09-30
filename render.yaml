@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: ai-chat
+    env: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    region: oregon
+    autoDeploy: true
+    disk:
+      name: sillytavern-data
+      mountPath: /home/node/app/data
+      sizeGB: 1
+    envVars:
+      - key: NODE_ENV
+        value: production
