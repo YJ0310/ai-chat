@@ -29,4 +29,4 @@ ENV PORT=8000
 EXPOSE 8000
 
 ENTRYPOINT ["tini", "--"]
-CMD ["node", "server.js", "--listen", "--whitelist=false", "--basicAuthMode=true"]
+CMD ["node", "--max-old-space-size=400", "server.js", "--listen", "--whitelist=false", "--basicAuthMode=true"]

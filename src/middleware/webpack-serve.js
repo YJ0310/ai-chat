@@ -1,3 +1,4 @@
+import fs from 'node:fs';
 import path from 'node:path';
 import webpack from 'webpack';
 import getPublicLibConfig from '../../webpack.config.js';
@@ -31,10 +32,19 @@ export default function getWebpackServeMiddleware() {
      * @returns {Promise<void>}
      */
     devMiddleware.runWebpackCompiler = ({ forceDist = false, pruneCache = false } = {}) => {
+        const publicLibConfig = getPublicLibConfig({ forceDist, pruneCache });
+        const outputPath = publicLibConfig.output?.path;
+        const outputFile = publicLibConfig.output?.filename || 'lib.js';
+        const targetFile = outputPath ? path.join(outputPath, outputFile) : null;
+
+        if (targetFile && fs.existsSync(targetFile)) {
+            console.log(`Frontend libraries bundle already exists at ${targetFile}. Skipping compilation.`);
+            return Promise.resolve();
+        }
+
         console.log();
         console.log('Compiling frontend libraries...');
 
-        const publicLibConfig = getPublicLibConfig({ forceDist, pruneCache });
         const compiler = webpack(publicLibConfig);
 
         return new Promise((resolve) => {
