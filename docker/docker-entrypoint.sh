@@ -16,9 +16,9 @@ start_sillytavern() {
 
     # Start the server (respect Render $PORT if set)
     if [ -n "$PORT" ]; then
-        exec $PREFIX node server.js --listen --port "$PORT" --whitelist=false "$@"
+        exec $PREFIX node server.js --listen --port "$PORT" --whitelist=false --basicAuthMode=true "$@"
     else
-        exec $PREFIX node server.js --listen --whitelist=false "$@"
+        exec $PREFIX node server.js --listen --whitelist=false --basicAuthMode=true "$@"
     fi
 }
 
