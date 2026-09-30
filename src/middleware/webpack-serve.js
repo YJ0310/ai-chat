@@ -12,13 +12,38 @@ export default function getWebpackServeMiddleware() {
      * @type {import('express').RequestHandler}
      */
     function devMiddleware(req, res, next) {
-        const publicLibConfig = getPublicLibConfig();
-        const outputPath = publicLibConfig.output?.path;
-        const outputFile = publicLibConfig.output?.filename;
         const parsedPath = path.parse(req.path);
 
-        if (req.method === 'GET' && parsedPath.dir === '/' && parsedPath.base === outputFile) {
-            return res.sendFile(outputFile, { root: outputPath });
+        if (req.method === 'GET' && parsedPath.dir === '/' && (parsedPath.base === 'lib.js' || parsedPath.base === 'lib.js.map')) {
+            const distWebpack = path.resolve(process.cwd(), 'dist', '_webpack');
+            if (fs.existsSync(distWebpack)) {
+                try {
+                    const entries = fs.readdirSync(distWebpack, { withFileTypes: true });
+                    for (const entry of entries) {
+                        if (entry.isDirectory()) {
+                            const candidateDir = path.join(distWebpack, entry.name, 'output');
+                            const candidateFile = path.join(candidateDir, parsedPath.base);
+                            if (fs.existsSync(candidateFile)) {
+                                return res.sendFile(parsedPath.base, { root: candidateDir });
+                            }
+                        }
+                    }
+                } catch (e) {
+                    console.error('Failed to read dist/_webpack:', e);
+                }
+            }
+
+            try {
+                const publicLibConfig = getPublicLibConfig();
+                const outputPath = publicLibConfig.output?.path;
+                const outputFile = publicLibConfig.output?.filename || 'lib.js';
+
+                if (outputPath && parsedPath.base === outputFile && fs.existsSync(path.join(outputPath, outputFile))) {
+                    return res.sendFile(outputFile, { root: outputPath });
+                }
+            } catch (e) {
+                console.error('Failed to get public lib config:', e);
+            }
         }
 
         next();
@@ -32,6 +57,11 @@ export default function getWebpackServeMiddleware() {
      * @returns {Promise<void>}
      */
     devMiddleware.runWebpackCompiler = ({ forceDist = false, pruneCache = false } = {}) => {
+        if (process.env.NODE_ENV === 'production' && !forceDist) {
+            console.log('Production runtime: skipping Webpack compiler to prevent OOM.');
+            return Promise.resolve();
+        }
+
         const publicLibConfig = getPublicLibConfig({ forceDist, pruneCache });
         const outputPath = publicLibConfig.output?.path;
         const outputFile = publicLibConfig.output?.filename || 'lib.js';

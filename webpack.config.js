@@ -23,6 +23,9 @@ function getWebpackCacheVersion() {
  * @param {string} currentCacheVersion The current cache version to keep.
  */
 function pruneWebpackCache(webpackRoot, currentCacheVersion) {
+    if (process.env.NODE_ENV === 'production') {
+        return;
+    }
     try {
         if (!fs.existsSync(webpackRoot)) {
             return;
@@ -62,7 +65,7 @@ const appVersion = await getVersion();
  * */
 export default function getPublicLibConfig({ forceDist = false, pruneCache = false } = {}) {
     function getWebpackRoot() {
-        if (forceDist || isDocker()) {
+        if (forceDist || isDocker() || fs.existsSync(path.resolve(process.cwd(), 'dist', '_webpack'))) {
             return path.resolve(process.cwd(), 'dist', '_webpack');
         }
 
